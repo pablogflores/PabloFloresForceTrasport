@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cantidad_de_Vehiculos_no_disponibles</fullName>
+    <active>true</active>
+    <errorConditionFormula>Cantidad_de_Flota__c &lt;0</errorConditionFormula>
+    <errorDisplayField>Cantidad_de_Flota__c</errorDisplayField>
+    <errorMessage>No Hay Vehiculos disponibles</errorMessage>
+</ValidationRule>
